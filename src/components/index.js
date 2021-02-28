@@ -1,4 +1,4 @@
-export { default as Alert } from './Alert';
+export { default as Alert, alertVariants } from './Alert';
 export { default as Avatar } from './Avatar';
 export { default as Badge } from './Badge';
 export { default as Breadcrumbs } from './Breadcrumbs';
@@ -15,7 +15,7 @@ export { default as ImageUploader } from './ImageUploader';
 export { default as Radio } from './Radio';
 export { default as Sheet } from './Sheet';
 export { default as SnackbarGroup } from './SnackbarGroup';
-export { default as Snackbar } from './Snackbar';
+export { default as Snackbar, snackbarVariants } from './Snackbar';
 export { default as Stepper } from './Stepper';
 export { default as Switch } from './Switch';
 export { default as Tabs } from './Tabs';
