@@ -8,8 +8,8 @@ const StyledTextArea = styled(TextArea).attrs(({ theme }) => ({
   colors: {
     default: {
       border: theme.colors.neutral,
-      color: theme.colors.base,
-      placeholder: theme.colors.text,
+      color: theme.colors.text,
+      placeholder: theme.colors.neutral,
       outline: theme.colors.primary,
     },
     disabled: {

@@ -4,8 +4,8 @@ export const getInputColors = (theme) => ({
   default: {
     background: 'white',
     border: theme.colors.neutral,
-    color: theme.colors.base,
-    placeholder: theme.colors.text,
+    color: theme.colors.text,
+    placeholder: theme.colors.neutral,
     tag: theme.colors.primary,
   },
   disabled: {

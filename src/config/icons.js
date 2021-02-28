@@ -666,6 +666,7 @@ export const iconsMapping = {
           strokeWidth="2"
           strokeLinecap="round"
           strokeLinejoin="round"
+          fill="none"
         />
         <rect x="13" width="2" height="5" rx="1" fill="currentColor" />
         <path
