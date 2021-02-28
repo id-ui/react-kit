@@ -1,6 +1,6 @@
 import React from 'react';
 import FileInput, { UploadArea } from '@idui/react-file-input';
-import Image from 'kit/Image';
+import Image from 'components/Image';
 
 function ImageUploader({ value, ...props }) {
   return (

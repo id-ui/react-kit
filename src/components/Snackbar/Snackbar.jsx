@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Snackbar as IDUISnackbar } from '@idui/react-snackbar';
-import Icon from 'kit/Icon';
+import Icon from 'components/Icon';
 import { Container, Content } from './styled';
 import { snackbarVariants, variantsMapping } from './config';
 

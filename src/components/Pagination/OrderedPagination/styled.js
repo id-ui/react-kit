@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 import { ifProp, prop } from 'styled-tools';
-import Icon from 'kit/Icon';
+import Icon from 'components/Icon';
 import {
   getThemeColor,
   getThemeContrastColor,

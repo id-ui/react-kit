@@ -1,4 +1,4 @@
-import './confif/icons';
+import './config/icons';
 
 export * from './components';
 export * from './config/themes';

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Icon from 'kit/Icon';
+import Icon from 'components/Icon';
 import { prop } from 'styled-tools';
 import { colorize } from 'utils/mixins';
 

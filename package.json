@@ -1,7 +1,7 @@
 {
   "name": "@idui/react-kit",
   "version": "0.0.1",
-  "description": "React $Component Component",
+  "description": "React Components kit",
   "author": "kaprisa57@gmail.com",
   "license": "MIT",
   "repository": "id-ui/react-kit",
@@ -14,10 +14,9 @@
   "scripts": {
     "start": "start-storybook",
     "deploy-storybook": "storybook-to-ghpages",
-    "build": "webpack --mode production && yarn run types:copy",
-    "types:copy": "cp ./types.d.ts ./dist",
+    "build": "webpack --mode production",
     "eslint": "eslint ./src/ --ext .js,.jsx --fix",
-    "pretty": "npx prettier --write \"**/*.js*\"",
+    "pretty": "npx prettier --write \"src/**/*.js*\"",
     "lint": "yarn run eslint && yarn run pretty",
     "build-and-publish": "yarn run build && npm version patch && npm publish"
   },
@@ -59,22 +58,20 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "file-loader": "^6.2.0",
     "husky": "^4.3.0",
     "kcd-scripts": "^6.7.0",
     "lint-staged": "^10.5.1",
     "path": "^0.12.7",
-    "webpack": "^5.0.0-rc.6",
-    "webpack-cli": "^4.0.0-rc.1",
     "react": "^16.14.0",
-    "react-dom": "^16.14.0"
+    "react-dom": "^16.14.0",
+    "webpack": "^5.0.0-rc.6",
+    "webpack-cli": "^4.0.0-rc.1"
   },
   "files": [
     "dist"
   ],
   "dependencies": {
-    "lodash": "^4.17.20",
-    "prop-types": "^15.7.2",
-    "styled-tools": "^1.7.2",
     "@idui/react-avatar": "^1.0.1",
     "@idui/react-badge": "^1.0.0",
     "@idui/react-collapse": "^2.0.10",
@@ -93,7 +90,11 @@
     "@idui/react-text-area": "^1.1.0",
     "@idui/react-toggle-controls": "^1.1.6",
     "@idui/react-tree": "^1.2.6",
-    "@idui/react-tree-select": "^1.0.0"
+    "@idui/react-tree-select": "^1.0.0",
+    "lodash": "^4.17.20",
+    "prop-types": "^15.7.2",
+    "react-router-dom": "^5.2.0",
+    "styled-tools": "^1.7.2"
   },
   "lint-staged": {
     "src/**/*.{js,jsx}": [

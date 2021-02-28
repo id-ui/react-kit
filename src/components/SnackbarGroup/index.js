@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 import { SnackbarGroup as IDUISnackbarGroup } from '@idui/react-snackbar';
-import { Container, Content } from 'kit/Snackbar/styled';
+import { Container, Content } from 'components/Snackbar/styled';
 import React from 'react';
 import { prop } from 'styled-tools';
 import PropTypes from 'prop-types';
-import { snackbarVariants } from 'kit/Snackbar';
-import { variantsMapping } from 'kit/Snackbar/config';
-import Icon from 'kit/Icon';
+import { snackbarVariants } from 'components/Snackbar';
+import { variantsMapping } from 'components/Snackbar/config';
+import Icon from 'components/Icon';
 
 const GroupItemContainer = styled(Container)`
   margin-bottom: 0.5rem;

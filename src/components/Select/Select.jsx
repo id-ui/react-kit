@@ -8,7 +8,7 @@ import React, {
 import PropTypes from 'prop-types';
 import _ from 'lodash';
 import Popover from '@idui/react-popover';
-import { TextInput } from 'kit/Inputs';
+import { TextInput } from 'components/Inputs';
 import Menu from './components/Menu';
 
 export const getNextIndex = (currentIndex, direction, options) => {

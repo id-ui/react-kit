@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from 'react';
 import PropTypes from 'prop-types';
 import _ from 'lodash';
-import Icon from 'kit/Icon';
+import Icon from 'components/Icon';
 import { Container, Content, CloseIcon } from './styled';
 import { alertVariants, variantsMapping } from './config';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Icon from 'kit/Icon';
+import Icon from 'components/Icon';
 import { Container } from './styled';
 
 function IconButton({ name, iconSize, iconColor, color, ...props }) {
