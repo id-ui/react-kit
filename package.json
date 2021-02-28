@@ -14,7 +14,8 @@
   "scripts": {
     "start": "start-storybook",
     "deploy-storybook": "storybook-to-ghpages",
-    "build": "webpack --mode production",
+    "build": "webpack --mode production && yarn run types:copy",
+    "types:copy": "cp ./types.d.ts ./dist",
     "eslint": "eslint ./src/ --ext .js,.jsx --fix",
     "pretty": "npx prettier --write \"src/**/*.js*\"",
     "lint": "yarn run eslint && yarn run pretty",

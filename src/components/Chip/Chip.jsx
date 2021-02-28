@@ -26,7 +26,7 @@ Chip.propTypes = {
   children: PropTypes.any,
   isRemovable: PropTypes.bool,
   onRemove: PropTypes.func,
-  isInteractive: PropTypes.func,
+  isInteractive: PropTypes.bool,
   className: PropTypes.string,
 };
 
