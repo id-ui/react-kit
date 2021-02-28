@@ -1,0 +1,109 @@
+{
+  "name": "@idui/react-kit",
+  "version": "0.0.1",
+  "description": "React $Component Component",
+  "author": "kaprisa57@gmail.com",
+  "license": "MIT",
+  "repository": "id-ui/react-kit",
+  "main": "dist/index.js",
+  "types": "dist/types.d.ts",
+  "source": "src/index.js",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "start-storybook",
+    "deploy-storybook": "storybook-to-ghpages",
+    "build": "webpack --mode production && yarn run types:copy",
+    "types:copy": "cp ./types.d.ts ./dist",
+    "eslint": "eslint ./src/ --ext .js,.jsx --fix",
+    "pretty": "npx prettier --write \"**/*.js*\"",
+    "lint": "yarn run eslint && yarn run pretty",
+    "build-and-publish": "yarn run build && npm version patch && npm publish"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
+    "@storybook/addon-essentials": "^6.1.14",
+    "@storybook/addon-storysource": "^6.1.14",
+    "@storybook/addons": "^6.1.14",
+    "@storybook/react": "^6.1.14",
+    "@storybook/storybook-deployer": "^2.8.7",
+    "@storybook/theming": "^6.1.9",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "8.2.1",
+    "babel-plugin-styled-components": "^1.12.0",
+    "eslint": "^7.13.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^4.3.0",
+    "kcd-scripts": "^6.7.0",
+    "lint-staged": "^10.5.1",
+    "path": "^0.12.7",
+    "webpack": "^5.0.0-rc.6",
+    "webpack-cli": "^4.0.0-rc.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "prop-types": "^15.7.2",
+    "styled-tools": "^1.7.2",
+    "@idui/react-avatar": "^1.0.1",
+    "@idui/react-badge": "^1.0.0",
+    "@idui/react-collapse": "^2.0.10",
+    "@idui/react-date-components": "^2.0.5",
+    "@idui/react-file-input": "^1.2.10",
+    "@idui/react-icon": "^1.0.5",
+    "@idui/react-inputs": "^1.1.10",
+    "@idui/react-mask-input": "^1.2.0",
+    "@idui/react-modal": "^1.0.3",
+    "@idui/react-pagination": "^1.0.4",
+    "@idui/react-popover": "^1.2.3",
+    "@idui/react-progress": "^1.0.1",
+    "@idui/react-sheet": "^1.0.0",
+    "@idui/react-snackbar": "^1.0.2",
+    "@idui/react-stepper": "^1.0.4",
+    "@idui/react-text-area": "^1.1.0",
+    "@idui/react-toggle-controls": "^1.1.6",
+    "@idui/react-tree": "^1.2.6",
+    "@idui/react-tree-select": "^1.0.0"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx}": [
+      "eslint --fix",
+      "git add src/*"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
