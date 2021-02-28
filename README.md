@@ -8,8 +8,8 @@
 ⚠️ It's beta version. The system is still in development 🚀
 
 - [IDUI](http://idui.online/)
-- [Components](http://idui.online/components)
-- [Themes](http://idui.online/themes)
+- [Components](http://idui.online/components/button/Button)
+- [Themes](http://idui.online/themes/tenderness)
 
 ## Install
 
