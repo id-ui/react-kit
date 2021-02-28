@@ -15,6 +15,7 @@ module.exports = {
     'prop-types',
     'styled-components',
     'styled-tools',
+    'framer-motion',
     '@idui/react-avatar',
     '@idui/react-badge',
     '@idui/react-collapse',

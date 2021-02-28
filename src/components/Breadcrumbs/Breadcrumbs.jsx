@@ -1,17 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import resolveComponentByProps from 'utils/resolveComponentByProps';
 import { Container, Item, Divider } from './styled';
 
-function Breadcrumbs({ items, divider, className }) {
+function Breadcrumbs({ items, divider, className, tag }) {
   return (
     <Container className={className}>
       {items.map((item, index) => (
         <Item
           key={item.to}
-          as={resolveComponentByProps(item)}
           isActive={index === items.length - 1}
           to={item.to}
+          href={item.href}
+          as={tag}
         >
           {index !== 0 && <Divider>{divider}</Divider>}
           {item.name}
@@ -31,11 +31,13 @@ Breadcrumbs.propTypes = {
   ),
   divider: PropTypes.string,
   className: PropTypes.string,
+  itemElement: PropTypes.oneOfType([PropTypes.element, PropTypes.string]),
 };
 
 Breadcrumbs.defaultProps = {
   items: [],
   divider: '/',
+  itemElement: 'a',
 };
 
 export default Breadcrumbs;

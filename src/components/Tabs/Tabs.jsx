@@ -2,7 +2,6 @@ import React, { useMemo } from 'react';
 import PropTypes from 'prop-types';
 import _ from 'lodash';
 import { AnimateSharedLayout } from 'framer-motion';
-import { resolveComponentByProps } from './helpers';
 import { Container, Item, Outline } from './styled';
 
 const spring = {
@@ -37,7 +36,6 @@ function Tabs({
           return (
             <Item
               key={itemId}
-              as={resolveComponentByProps(item)}
               isActive={isActive}
               onClick={() => onChangeTab(item)}
               {...item}

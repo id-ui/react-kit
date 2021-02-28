@@ -25,7 +25,11 @@ export { default as Tree } from './Tree';
 export { default as TreeSelect } from './TreeSelect';
 export { default as Popover } from '@idui/react-popover';
 export { default as Select } from './Select';
-export { default as Modal, ModalsRoot, ModalsProvider } from '@idui/react-modal';
+export {
+  default as Modal,
+  ModalsRoot,
+  ModalsProvider,
+} from '@idui/react-modal';
 export * from './DateComponents';
 export * from './Inputs';
 export * from './Pagination';

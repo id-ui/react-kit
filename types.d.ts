@@ -54,6 +54,7 @@ export interface BreadcrumbsProps {
     items?: BreadcrumbsItemConfig[];
     divider?: string;
     className?: string;
+    itemElement?: string | React.ReactElement;
 }
 
 export class Breadcrumbs extends React.Component<BreadcrumbsProps> {
