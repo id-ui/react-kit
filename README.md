@@ -60,6 +60,59 @@ function Usage() {
 }
 ```
 
+## Available Themes
+
+- iduiTheme
+- coffeeTheme
+- tendernessTheme
+- sunsetTheme
+- seaSandTheme
+
+## Available Components
+
+- Alert
+- Avatar
+- Badge
+- Breadcrumbs
+- Button
+- Checkbox
+- CheckboxTree
+- Chip
+- DropDownMenu
+- ExternalLink
+- Icon
+- IconButton
+- Image
+- ImageUploader
+- Radio
+- Sheet
+- SnackbarGroup
+- Snackbar
+- Stepper
+- Switch
+- Tabs
+- TextArea
+- Tooltip
+- Tree
+- TreeSelect
+- Popover
+- Select
+- Calendar
+- DatePicker
+- DateInput
+- TimePicker
+- TimeInput
+- DateRangePicker
+- DateRangeInput
+- TextInput
+- NumberInput
+- SearchInput
+- TagInput
+- OrderedPagination
+- UnorderedPagination
+- LinearProgress
+- CircularProgress
+
 ## License
 
 MIT © [kaprisa57@gmail.com](https://github.com/id-ui)
