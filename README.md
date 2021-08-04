@@ -5,8 +5,6 @@
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![LICENSE](https://img.shields.io/github/license/id-ui/react-kit)](https://github.com/id-ui/react-kit/blob/main/LICENSE)
 
-⚠️ It's beta version. The system is still in development 🚀
-
 - [IDUI](http://idui.online/)
 - [Components](http://idui.online/components/button/Button)
 - [Themes](http://idui.online/themes/tenderness)
