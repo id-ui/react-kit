@@ -24,6 +24,7 @@ export { default as Tooltip } from './Tooltip';
 export { default as Tree } from './Tree';
 export { default as TreeSelect } from './TreeSelect';
 export { default as Popover } from '@idui/react-popover';
+export {  default as Collapse } from '@idui/react-collapse';
 export { default as Select } from './Select';
 export {
   default as Modal,
@@ -34,3 +35,5 @@ export * from './DateComponents';
 export * from './Inputs';
 export * from './Pagination';
 export * from './Progress';
+import { default as FileInput, UploadArea } from '@idui/react-file-input'
+import { default as MaskInput } from '@idui/react-mask-input'

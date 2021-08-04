@@ -77,47 +77,51 @@ function Usage() {
 ## Available Components
 
 - Alert
-- Avatar
-- Badge
+- Avatar ([@idui/react-avatar](https://www.npmjs.com/package/@idui/react-avatar))
+- Badge ([@idui/react-badge](https://www.npmjs.com/package/@idui/react-badge))
+- Icon ([@idui/react-icon](https://www.npmjs.com/package/@idui/react-icon))
+- Sheet ([@idui/react-sheet](https://www.npmjs.com/package/@idui/react-sheet))
+- SnackbarGroup ([@idui/react-snackbar](https://www.npmjs.com/package/@idui/react-snackbar))
+- Snackbar ([@idui/react-snackbar](https://www.npmjs.com/package/@idui/react-snackbar))
+- Stepper ([@idui/react-stepper](https://www.npmjs.com/package/@idui/react-stepper))
+- Tree ([@idui/react-tree](https://www.npmjs.com/package/@idui/react-tree))
+- CheckboxTree ([@idui/react-tree](https://www.npmjs.com/package/@idui/react-tree))
+- TreeSelect ([@idui/react-tree-select](https://www.npmjs.com/package/@idui/react-tree-select))
+- Modal ([@idui/react-modal](https://www.npmjs.com/package/@idui/react-modal))
+- Popover ([@idui/react-popover](https://www.npmjs.com/package/@idui/react-popover))
+- Tooltip ([@idui/react-popover](https://www.npmjs.com/package/@idui/react-popover))
+- Collapse ([@idui/react-collapse](https://www.npmjs.com/package/@idui/react-collapse))
+- Calendar ([@idui/react-date-components](https://www.npmjs.com/package/@idui/react-date-components))
+- DatePicker ([@idui/react-date-components](https://www.npmjs.com/package/@idui/react-date-components))
+- DateInput ([@idui/react-date-components](https://www.npmjs.com/package/@idui/react-date-components))
+- TimePicker ([@idui/react-date-components](https://www.npmjs.com/package/@idui/react-date-components))
+- TimeInput ([@idui/react-date-components](https://www.npmjs.com/package/@idui/react-date-components))
+- DateRangePicker ([@idui/react-date-components](https://www.npmjs.com/package/@idui/react-date-components))
+- DateRangeInput ([@idui/react-date-components](https://www.npmjs.com/package/@idui/react-date-components))
+- TextArea ([@idui/react-text-area](https://www.npmjs.com/package/@idui/react-text-area))
+- TextInput ([@idui/react-inputs](https://www.npmjs.com/package/@idui/react-inputs))
+- NumberInput ([@idui/react-inputs](https://www.npmjs.com/package/@idui/react-inputs))
+- SearchInput ([@idui/react-inputs](https://www.npmjs.com/package/@idui/react-inputs))
+- TagInput ([@idui/react-inputs](https://www.npmjs.com/package/@idui/react-inputs))
+- FileInput ([@idui/react-file-input](https://www.npmjs.com/package/@idui/react-file-input))
+- ImageUploader ([@idui/react-file-input](https://www.npmjs.com/package/@idui/react-file-input))
+- MaskInput ([@idui/react-mask-input](https://www.npmjs.com/package/@idui/react-mask-input))
+- Checkbox ([@idui/react-toggle-controls](https://www.npmjs.com/package/@idui/react-toggle-controls))
+- Radio ([@idui/react-toggle-controls](https://www.npmjs.com/package/@idui/react-toggle-controls))
+- Switch ([@idui/react-toggle-controls](https://www.npmjs.com/package/@idui/react-toggle-controls))
+- OrderedPagination ([@idui/react-pagination](https://www.npmjs.com/package/@idui/react-pagination))
+- UnorderedPagination ([@idui/react-pagination](https://www.npmjs.com/package/@idui/react-pagination))
+- LinearProgress ([@idui/react-progress](https://www.npmjs.com/package/@idui/react-progress))
+- CircularProgress ([@idui/react-progress](https://www.npmjs.com/package/@idui/react-progress))
 - Breadcrumbs
 - Button
-- Checkbox
-- CheckboxTree
 - Chip
 - DropDownMenu
 - ExternalLink
-- Icon
 - IconButton
 - Image
-- ImageUploader
-- Radio
-- Sheet
-- SnackbarGroup
-- Snackbar
-- Stepper
-- Switch
 - Tabs
-- TextArea
-- Tooltip
-- Tree
-- TreeSelect
-- Popover
-- Select
-- Calendar
-- DatePicker
-- DateInput
-- TimePicker
-- TimeInput
-- DateRangePicker
-- DateRangeInput
-- TextInput
-- NumberInput
-- SearchInput
-- TagInput
-- OrderedPagination
-- UnorderedPagination
-- LinearProgress
-- CircularProgress
+- Select (in development)
 
 ## License
 
