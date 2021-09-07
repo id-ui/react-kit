@@ -51,10 +51,9 @@ export default {
   },
 
   shadow: {
-    primary:
-      '0 0.2rem 1.1rem rgba(0, 0, 0, 0.05), 0 0.2rem 0.6rem rgba(0, 0, 0, 0.09)',
+    primary: '0 0.2rem 1.2rem rgba(0, 0, 0, 0.06)',
     secondary:
-      '0 0.4rem 1.6rem rgba(0, 0, 0, 0.23), 0 0.4rem 0.5rem rgba(0, 0, 0, 0.09), 0 0.4rem 1.2rem rgba(0, 0, 0, 0.1), 0 0.2rem 0.6rem rgba(0, 0, 0, 0.1)',
+        '0 0.1rem 1.7rem rgba(0, 0, 0, 0.03), 0 1.3rem 2.8rem rgba(0, 0, 0, 0.06)',
   },
 
   transition: {
