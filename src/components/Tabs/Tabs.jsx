@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import PropTypes from 'prop-types';
-import _ from 'lodash';
+import {get} from 'lodash';
 import { AnimateSharedLayout } from 'framer-motion';
 import { Container, Item, Outline } from './styled';
 
@@ -20,17 +20,17 @@ function Tabs({
   onChangeTab,
 }) {
   const renderItem = useMemo(
-    () => providedRenderItem || ((item) => _.get(item, labelKey)),
+    () => providedRenderItem || ((item) => get(item, labelKey)),
     [labelKey, providedRenderItem]
   );
 
-  const activeTabValue = _.get(activeTab, valueKey);
+  const activeTabValue = get(activeTab, valueKey);
 
   return (
     <AnimateSharedLayout>
       <Container className={className}>
         {items.map((item) => {
-          const itemId = _.get(item, valueKey);
+          const itemId = get(item, valueKey);
           const isActive = itemId === activeTabValue;
           const content = renderItem(item);
           return (
@@ -68,7 +68,7 @@ Tabs.defaultProps = {
   valueKey: 'id',
   labelKey: 'name',
   items: [],
-  onChangeTab: _.noop,
+  onChangeTab: () => {},
 };
 
 export default Tabs;

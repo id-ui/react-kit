@@ -1217,10 +1217,10 @@
   resolved "https://registry.yarnpkg.com/@icons/material/-/material-0.2.4.tgz#e90c9f71768b3736e76d7dd6783fc6c2afa88bc8"
   integrity sha512-QPcGmICAPbGLGb6F/yNf/KzKqvFx8z5qx3D1yFqVAjoFmXK35EgyW+cJ57Te3CNsmzblwtzakLGFqHPqrfb4Tw==
 
-"@idui/react-avatar@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@idui/react-avatar/-/react-avatar-1.0.1.tgz#596b3a46392e41158e0e9104376c59aaa78c1852"
-  integrity sha512-PcXOdXVPKcQmbHPP3usDedHHXU8WX7Wzl3PQzhXugF+OOZxO8bTwAn0+SRJ7Eu5yc2rVPSlyWFmpqwSYMmgdIg==
+"@idui/react-avatar@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@idui/react-avatar/-/react-avatar-1.0.2.tgz#013628e935405055016bff5b1969e7951789973d"
+  integrity sha512-AuBFeDOLV+RdVtB2XH/CWiwLoR/rlNGL0VxM/C7Onny0wR+yJNn+fdfLwNL/mntjwLam057yZUw1MDjB9euNww==
   dependencies:
     prop-types "^15.7.2"
     styled-components "^5.2.1"
@@ -1235,23 +1235,22 @@
     styled-components "^5.2.1"
     styled-tools "^1.7.2"
 
-"@idui/react-collapse@^2.0.10":
-  version "2.0.10"
-  resolved "https://registry.yarnpkg.com/@idui/react-collapse/-/react-collapse-2.0.10.tgz#19ba7746cf3d83792aa1afc9dc5b24019d2dc7d6"
-  integrity sha512-RJQEJeiOfr8ousCuMBrFjgdOlKAVN3j1HgoDPcRsV+07unbPknLKtZ0mRKdaW9FqrjUeueOUuMTGt7YT/JBBrA==
+"@idui/react-collapse@^2.0.12", "@idui/react-collapse@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@idui/react-collapse/-/react-collapse-2.1.0.tgz#f82ae265eff570efb54774584937c97ebafb6b1c"
+  integrity sha512-D83ZGPF2FPH+x+AcVIlKM9PcW4o9XdHF6Z20jmNJBaeAFVTX+vOm4VXqAazznva0V8sfGzj0Ff1TWBwfm1Qu5A==
   dependencies:
     framer-motion "^2.9.5"
     lodash "^4.17.20"
-    prop-types "^15.7.2"
 
-"@idui/react-date-components@^2.0.5":
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/@idui/react-date-components/-/react-date-components-2.0.5.tgz#95fd275df232b61a1fe2b4b730df8805964c456b"
-  integrity sha512-KUu3iB1TmUMAO90ogekv+5jGSaoVjKlmIKhxWfuNRsdQvjIeERGcfBriBCB6p+HZOaOI9PqpnlsFBE4V9uariQ==
+"@idui/react-date-components@^2.0.7":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@idui/react-date-components/-/react-date-components-2.0.7.tgz#e0f394138499ef011bb756bafee78aab209f9a5b"
+  integrity sha512-rVWSgZqkgIl4xYEQDZu7CWTUzXiPNHZ8DlvIFrjpt0kNhbefTCTdP3qSCvSZWbJoZu0eSCnqj/5k5QFSGyNysw==
   dependencies:
     "@idui/react-icon" "^1.0.5"
-    "@idui/react-inputs" "^1.1.10"
-    "@idui/react-popover" "^1.2.1"
+    "@idui/react-inputs" "^1.1.12"
+    "@idui/react-popover" "^1.2.6"
     framer-motion "^3.1.4"
     lodash "^4.17.20"
     moment "^2.29.1"
@@ -1260,10 +1259,10 @@
     styled-components "^5.2.1"
     styled-tools "^1.7.2"
 
-"@idui/react-file-input@^1.2.10":
-  version "1.2.10"
-  resolved "https://registry.yarnpkg.com/@idui/react-file-input/-/react-file-input-1.2.10.tgz#fa9caa768d55e46db9ae6d51ceeab1895fd8ba85"
-  integrity sha512-bjIg6jQs79N4Ta/djlLLdHMuWibUSaIj3S689pNzfJQFztD5kAW9DjoF+V92lQNZRNWlyvmhB5arH1CKM8IuFQ==
+"@idui/react-file-input@^1.2.11":
+  version "1.2.11"
+  resolved "https://registry.yarnpkg.com/@idui/react-file-input/-/react-file-input-1.2.11.tgz#5ec56c8dc891cd76295c827069e7494b05e86bac"
+  integrity sha512-OTT7QqxovO/x9xwFXYpEpm+yRDN7vGWUA27ta85Cyb84ok+W+1PYpf7MdM9ocVLDFvkyJ5GZNShfTRRAekkNfQ==
   dependencies:
     prop-types "^15.7.2"
     styled-components "^5.2.1"
@@ -1277,52 +1276,51 @@
     styled-components "^5.2.1"
     styled-tools "^1.7.2"
 
-"@idui/react-inputs@^1.1.10", "@idui/react-inputs@^1.1.9":
-  version "1.1.10"
-  resolved "https://registry.yarnpkg.com/@idui/react-inputs/-/react-inputs-1.1.10.tgz#fd91d9cb2b911013f9aacb29e70eb092b2d7a5c3"
-  integrity sha512-lcPNkA7X12v6nGTn6LH6lVQBtzyP3IZBvBJShgAX6vM1krkqKJw8EYSnMmojlOb9M6f+Jn7baPTx8Xki2DMM5g==
+"@idui/react-inputs@^1.1.12", "@idui/react-inputs@^1.1.2":
+  version "1.1.12"
+  resolved "https://registry.yarnpkg.com/@idui/react-inputs/-/react-inputs-1.1.12.tgz#28d772429e36ca879136775d03edbbce0384f922"
+  integrity sha512-oFN61DuI2EEm4xgJyM86trJvYrmCgjfgdNbAAN8FG/tGFfZskrW4TL6R8Pg+l3ISuDpOZrJP5MNKoKc8zgNuqw==
   dependencies:
     "@idui/react-icon" "^1.0.5"
-    "@idui/react-mask-input" "^1.2.0"
+    "@idui/react-mask-input" "^1.2.1"
     lodash "^4.17.20"
     prop-types "^15.7.2"
     styled-components "^5.2.1"
     styled-tools "^1.7.2"
 
-"@idui/react-mask-input@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@idui/react-mask-input/-/react-mask-input-1.2.0.tgz#3fc8efee621cdbd02e7fc04f41fb0956d04135bf"
-  integrity sha512-d77dQJbP87FqVfFKvzEazZi8PUkf3lPjc6tMDoRid5ucZxGQGvY/WZhPXUKXMz83JNYQGskMrld+l6qtIo0aLA==
+"@idui/react-mask-input@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@idui/react-mask-input/-/react-mask-input-1.2.1.tgz#f6314828e1273832dfc6106922fe467e2cbf522d"
+  integrity sha512-5f719ujqdpkVWe5xr97fQT429DpvYEmzWwr+RKGKAVj6mJlzUomwfjA4sJ3w/sWLlvmbmJngVH8LCU5WOFSLSA==
   dependencies:
     prop-types "^15.7.2"
     styled-components "^5.2.1"
     styled-tools "^1.7.2"
 
-"@idui/react-modal@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@idui/react-modal/-/react-modal-1.0.3.tgz#390f26aba47a562d5e0386208785ff94e97bdcee"
-  integrity sha512-4Ot4hwkbmNewoTBXYbVL2ghkd/YBggCtQJz5qQXwKFbEADedIt1L4/QmLqZpH8eAWYNeH5VmeiRMnba0dluAJA==
+"@idui/react-modal@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@idui/react-modal/-/react-modal-1.0.4.tgz#cca194fa16e94e44535eaa62cf9e57155221468d"
+  integrity sha512-Q7KM3mu2gxsQezhuRLLml6kA3Q2AsQux9yLJ/JM+WOhkQJIQkBaIU8iq1NLLvWbvOPlg6GOZJCYuGKqWSs/FZQ==
   dependencies:
     framer-motion "^2.9.4"
     lodash "^4.17.20"
     prop-types "^15.7.2"
     styled-components "^5.2.1"
 
-"@idui/react-pagination@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@idui/react-pagination/-/react-pagination-1.0.4.tgz#e3d5a3d016bd03e87070d3a06d12e0f54f10e20b"
-  integrity sha512-/MjOWSdDgsLknc20wJomCyVSXS0zpe4oNVGoZ1u9t/6wZ44xSgNdNL7YgF5kFLksFsThi0lnQZNZn3eQV7mfFw==
+"@idui/react-pagination@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@idui/react-pagination/-/react-pagination-1.0.5.tgz#fa587f36ca0a9d9c8557277363120c57d7aa050f"
+  integrity sha512-J3jn0GLB45OG8KHRMBdj4RVVkDfGjOTgQTeM2QoAT3Tl+ef78vFxZ+a+P2qhZfqErEEa5bngY5UvzgFQSQRklg==
   dependencies:
     prop-types "^15.7.2"
 
-"@idui/react-popover@^1.1.14", "@idui/react-popover@^1.2.1", "@idui/react-popover@^1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@idui/react-popover/-/react-popover-1.2.3.tgz#78b2fbb0c524990d75752e23aabca1bb32ae59f0"
-  integrity sha512-l6V8QKrfpJgNQ/RsDU2SRxu31PL4bkeJk/bCsUYl2Qko0oOLC6VWyQARHQ2BVrdveyqp28UBGVN0Aqi7dYcGmA==
+"@idui/react-popover@^1.2.6", "@idui/react-popover@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@idui/react-popover/-/react-popover-1.4.0.tgz#8eebaa076a86f1b8d8da8800a4121114d5599481"
+  integrity sha512-ahskLfG0yxSADeGAoHwl7iIodClLbPkndZLueF6BbSFF5XLFVs/6zZb2hqI86FnN0boH/TInPJG4s3w/CDFevg==
   dependencies:
     framer-motion "^1.11.1"
     lodash "^4.17.20"
-    prop-types "^15.7.2"
     styled-components "^5.2.1"
     styled-tools "^1.7.2"
 
@@ -1336,10 +1334,10 @@
     styled-components "^5.2.1"
     styled-tools "^1.7.2"
 
-"@idui/react-sheet@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@idui/react-sheet/-/react-sheet-1.0.0.tgz#fded7ded9efc1c9908c37c7aaa9594ffa1938365"
-  integrity sha512-siko1WseZYp1zRB+sH5ObnVzcEYPtBw3B1rn2baGDzk98GIABedVfYVBilDPeLK4FsuUQ1MbdBASuOysfWwzNw==
+"@idui/react-sheet@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@idui/react-sheet/-/react-sheet-1.0.1.tgz#9c422cdaf527d90ae4068b83afa4f7b43d182e40"
+  integrity sha512-i9soh2rfih+TAQX0mBAIwZT2WYCZkliR2b0rE34I+cub3KXTdEDYC+EhT/sSpNGNOwDyRaD9/YgGhjRKXAXC7w==
   dependencies:
     framer-motion "^3.6.7"
     prop-types "^15.7.2"
@@ -1365,43 +1363,43 @@
     styled-components "^5.2.1"
     styled-tools "^1.7.2"
 
-"@idui/react-text-area@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@idui/react-text-area/-/react-text-area-1.1.0.tgz#7a08720b6f2c6d03e5b55536d5f7a0598d89ff5a"
-  integrity sha512-CbPfZ+Yr4peUTS61iFQy3iwphLyTlnoih6WJS1A6doskVY0TLfcKDR4h/x9WKz+zFtM8i0+VT13Szfe5qrQEhw==
+"@idui/react-text-area@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@idui/react-text-area/-/react-text-area-1.1.1.tgz#a01e751f8ceecb3be1962fe8482e7c93f8f5b29f"
+  integrity sha512-gVBzQvC3URp7y8hBvREPnGQMJMWFGcXOodJuJndxT1sbxT6QslJuCkjYVtVPLpE9YiWPmL8ayW9XgDnOudUL4A==
   dependencies:
     prop-types "^15.7.2"
     styled-components "^5.2.1"
     styled-tools "^1.7.2"
 
-"@idui/react-toggle-controls@^1.1.6":
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/@idui/react-toggle-controls/-/react-toggle-controls-1.1.6.tgz#cf9be74efcc83200aaaabc105552627c8ce25f7f"
-  integrity sha512-8L2ybzzEIH6cSq+ep1ak9RHa/NM1QEMnFqj7jayNkpOWQfeY71HVwwtQOaclHllBXyPCt6PAhAt6ZZ2iDpvEnQ==
+"@idui/react-toggle-controls@^1.1.7":
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/@idui/react-toggle-controls/-/react-toggle-controls-1.1.7.tgz#8ba0959c0eb97dfc82c8a5c9014333972bb9fcc2"
+  integrity sha512-s0ZNAMHcPQ1f9II9MVzapTKJojnW3lv/n29IntCyFdX3hmG4CUAuX67mbcax8z9OVKNFv1PP2SfRgZjqLeIn2Q==
   dependencies:
     prop-types "^15.7.2"
     styled-components "^5.2.1"
     styled-tools "^1.7.2"
 
-"@idui/react-tree-select@^1.0.0":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@idui/react-tree-select/-/react-tree-select-1.0.1.tgz#fc2e2f97faa375dec8a14719709a5862495e1aad"
-  integrity sha512-1XE2z/Cym8SHU3uUfeqgGbpeEZSJXqpZbnybJzBOiHcLchdfqQmB1kWLRH8uSniGXjNPgk/UrpcoASWtTCVCDg==
+"@idui/react-tree-select@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@idui/react-tree-select/-/react-tree-select-1.0.5.tgz#6572ed03c1b22f64bfae664a782bce1d698176ec"
+  integrity sha512-xlSV2UfVtL7KwesWsAcKo/ZlU5ZWi/QYTwpibgBf6zW1m3EqCGDTizPlAoz5fYeIR46sXOnxmfG+B9UNkvoJmg==
   dependencies:
-    "@idui/react-inputs" "^1.1.9"
-    "@idui/react-popover" "^1.1.14"
-    "@idui/react-tree" "^1.2.6"
+    "@idui/react-inputs" "^1.1.2"
+    "@idui/react-popover" "^1.2.6"
+    "@idui/react-tree" "^1.2.9"
     prop-types "^15.7.2"
     styled-components "^5.2.1"
     styled-tools "^1.7.2"
 
-"@idui/react-tree@^1.2.6":
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/@idui/react-tree/-/react-tree-1.2.6.tgz#e06f99fea2c267f333ca89c340bcbcef370c5cfd"
-  integrity sha512-REzSqnM7idz51sTi1YdRosnBg75re2TJM7BaeRpFnuV37OuspBxoICw6VmuRymxVEJD7S+aKcRMciQj7I0MRAQ==
+"@idui/react-tree@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@idui/react-tree/-/react-tree-1.2.9.tgz#cbabfefa0fd3753b379dee5f2423586f16fe818d"
+  integrity sha512-K1aBfQMs9lK7O1nXembTMmkRg/2vx/BpCS9poHsYoInQaJbmwUpqZOYWPDprV7Jnm2tOSh2lumrJ1ekWmmfjMw==
   dependencies:
-    "@idui/react-collapse" "^2.0.10"
-    "@idui/react-toggle-controls" "^1.1.6"
+    "@idui/react-collapse" "^2.0.12"
+    "@idui/react-toggle-controls" "^1.1.7"
     immer "^8.0.0"
     lodash "^4.17.20"
     prop-types "^15.7.2"

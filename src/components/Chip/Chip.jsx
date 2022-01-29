@@ -1,5 +1,4 @@
 import React, { useCallback } from 'react';
-import _ from 'lodash';
 import PropTypes from 'prop-types';
 import { stopPropagation } from 'utils/events';
 import { Container, RemoveIcon } from './styled';
@@ -32,7 +31,7 @@ Chip.propTypes = {
 
 Chip.defaultProps = {
   isRemovable: false,
-  onRemove: _.noop,
+  onRemove: () =>  {},
   color: 'primary',
   isInteractive: false,
 };

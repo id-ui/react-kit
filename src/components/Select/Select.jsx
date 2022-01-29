@@ -6,7 +6,8 @@ import React, {
   useMemo,
 } from 'react';
 import PropTypes from 'prop-types';
-import _ from 'lodash';
+import {findIndex,
+  findLastIndex, isUndefined} from 'lodash';
 import Popover from '@idui/react-popover';
 import { TextInput } from 'components/Inputs';
 import Menu from './components/Menu';
@@ -33,7 +34,7 @@ export const getNextIndex = (currentIndex, direction, options) => {
 
     return result >= 0
       ? result
-      : _.findIndex(options, (option) => !option.disabled);
+      : findIndex(options, (option) => !option.disabled);
   } else {
     for (let i = currentIndex - 1; i >= 0; i--) {
       if (!options[i].disabled) {
@@ -44,7 +45,7 @@ export const getNextIndex = (currentIndex, direction, options) => {
 
     return result >= 0
       ? result
-      : _.findLastIndex(options, (option) => !option.disabled);
+      : findLastIndex(options, (option) => !option.disabled);
   }
 };
 
@@ -141,7 +142,7 @@ function Select({
       if (!options.length) {
         return;
       }
-      const actualIndex = _.isUndefined(index) ? activeOptionIndex : index;
+      const actualIndex = isUndefined(index) ? activeOptionIndex : index;
       if (actualIndex > -1) {
         let option = options[index];
 
@@ -234,10 +235,10 @@ Select.propTypes = {
 };
 
 Select.defaultProps = {
-  renderOption: _.identity,
+  renderOption: option =>  option,
   isOptionSelected: (option, value) => option === value,
-  onFocus: _.noop,
-  onKeyDown: _.noop,
+  onFocus: () => {},
+  onKeyDown: () => {},
   options: [],
 };
 
