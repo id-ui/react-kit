@@ -1235,10 +1235,18 @@
     styled-components "^5.2.1"
     styled-tools "^1.7.2"
 
-"@idui/react-collapse@^2.0.12", "@idui/react-collapse@^2.1.0":
+"@idui/react-collapse@^2.0.12":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@idui/react-collapse/-/react-collapse-2.1.0.tgz#f82ae265eff570efb54774584937c97ebafb6b1c"
   integrity sha512-D83ZGPF2FPH+x+AcVIlKM9PcW4o9XdHF6Z20jmNJBaeAFVTX+vOm4VXqAazznva0V8sfGzj0Ff1TWBwfm1Qu5A==
+  dependencies:
+    framer-motion "^2.9.5"
+    lodash "^4.17.20"
+
+"@idui/react-collapse@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@idui/react-collapse/-/react-collapse-2.1.1.tgz#4c0a90ba5a8413532c0efd471d4bf94488dd29dd"
+  integrity sha512-TYjwcGNX3wKozYUbpMdB5UXqRKVwBFvj7E0Xjf3HaVswspn9d7MnpROd77nDXBSPRvLKxTV4AjP3a+dgF0aFyA==
   dependencies:
     framer-motion "^2.9.5"
     lodash "^4.17.20"
@@ -1378,6 +1386,14 @@
   integrity sha512-s0ZNAMHcPQ1f9II9MVzapTKJojnW3lv/n29IntCyFdX3hmG4CUAuX67mbcax8z9OVKNFv1PP2SfRgZjqLeIn2Q==
   dependencies:
     prop-types "^15.7.2"
+    styled-components "^5.2.1"
+    styled-tools "^1.7.2"
+
+"@idui/react-toggle-controls@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@idui/react-toggle-controls/-/react-toggle-controls-1.2.0.tgz#abeef4b459782c7e359786edacfea3fd3d78f355"
+  integrity sha512-Hng2NSYv7UPNlFe7/Glp2+NVMfs8PxDAK0mX2iADL2QjrlviTOefBevdYGqiAV4ajeXpajg9ORiyTY3aSe1CoQ==
+  dependencies:
     styled-components "^5.2.1"
     styled-tools "^1.7.2"
 

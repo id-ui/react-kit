@@ -1,6 +1,6 @@
 {
   "name": "@idui/react-kit",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "React Components kit",
   "author": "kaprisa57@gmail.com",
   "license": "MIT",
@@ -75,7 +75,7 @@
   "dependencies": {
     "@idui/react-avatar": "^1.0.2",
     "@idui/react-badge": "^1.0.0",
-    "@idui/react-collapse": "^2.1.0",
+    "@idui/react-collapse": "^2.1.1",
     "@idui/react-date-components": "^2.0.7",
     "@idui/react-file-input": "^1.2.11",
     "@idui/react-icon": "^1.0.5",
@@ -89,7 +89,7 @@
     "@idui/react-snackbar": "^1.0.2",
     "@idui/react-stepper": "^1.0.4",
     "@idui/react-text-area": "^1.1.1",
-    "@idui/react-toggle-controls": "^1.1.7",
+    "@idui/react-toggle-controls": "^1.2.0",
     "@idui/react-tree": "^1.2.9",
     "@idui/react-tree-select": "^1.0.5",
     "framer-motion": "^3.7.0",
