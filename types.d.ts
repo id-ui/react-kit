@@ -239,6 +239,81 @@ export class CircularProgress extends React.Component<CircularProgressProps> {
 export class Modal extends React.Component<ModalProps> {
 }
 
+export interface Theme {
+    colors: {
+        base: string, // primary background color
+        baseContrast: string, // secondary background color
+
+        primary: string, // for elements background or color
+        primaryHighlight: string, // for highlighting elements with primary color during interactions
+        primaryContrast: string,
+
+        secondary: string, // accent color for elements background or color
+        secondaryHighlight: string, // for highlighting elements with secondary color during interactions
+        secondaryContrast: string,
+
+        neutral: string, // neutral color
+        text: string, // neutral text color
+
+        disabled: string,
+        disabledContrast: string,
+
+        error: string,
+        errorContrast: string,
+        success: string,
+        successContrast: string,
+        warning: string,
+        warningContrast: string,
+        info: string,
+        infoContrast: string,
+    },
+
+    typography: {
+        title: string,
+        subtitle: string,
+        body: string,
+        button: string,
+        caption: string,
+        label: string,
+        input: string,
+    },
+
+    shape: {
+        primary: string,
+        secondary: string,
+    },
+
+    border: {
+        default: {
+            width: string,
+            style: string,
+            color: string,
+        },
+    },
+
+    shadow: {
+        primary: string,
+        secondary: string,
+    },
+
+    transition: {
+        default: string,
+    },
+
+    highlightPercent: number,
+}
+
+export const iduiTheme: Theme
+export const coffeeTheme: Theme
+export const tendernessTheme: Theme
+export const sunsetTheme: Theme
+export const seaSandTheme: Theme
+export const eliteTheme: Theme
+export const autumnTheme: Theme
+export const strictBlueTheme: Theme
+export const berryExplosionTheme: Theme
+export const unicornTheme: Theme
+
 export {
     AvatarProps,
     BadgeProps,
